@@ -16,7 +16,7 @@ namespace OrderProcessor
         private readonly ILogger<OrderProcessor> _logger;
         private readonly string KeyVaultUri = "https://finaltask.vault.azure.net/";
 
-        private readonly string DatabaseName = "orderconfirmedorderDb";
+        private readonly string DatabaseName = "orderconfirmedDb";
         private readonly string ContainerName = "orderconfirmed";
         public OrderProcessor(ILogger<OrderProcessor> logger)
         {
